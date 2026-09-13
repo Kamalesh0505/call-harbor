@@ -2,7 +2,7 @@ services:
   - type: web
     name: callharbor
     runtime: node
-    rootDir: .
+    rootDir: wifi-call-dashboard
     buildCommand: npm install
     startCommand: npm start
     envVars:
